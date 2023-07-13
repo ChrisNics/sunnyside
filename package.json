@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch && cp -r src/*.html dist"
+  },
   "devDependencies": {
     "tailwindcss": "^3.3.2",
     "tailwindcss-debug-screens": "^2.2.1"
